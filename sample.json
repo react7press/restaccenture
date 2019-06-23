@@ -1,0 +1,289 @@
+{
+    "data": {
+        "legendObject": [
+            {
+                "type": "square",
+                "id": "pet",
+                "name": "pet",
+                "color": "rgb(0, 158, 142)"
+            },
+            {
+                "type": "square",
+                "id": "eme",
+                "name": "eme",
+                "color": "#CCCC"
+            },
+            {
+                "type": "square",
+                "id": "sep",
+                "name": "SEP",
+                "color": "#0275af"
+            },
+            {
+                "type": "square",
+                "id": "enq",
+                "name": "enq",
+                "color": "rgb(206, 184, 136)"
+            },
+            {
+                "type": "circle",
+                "id": "event",
+                "name": "Event",
+                "color": "rgb(231,85,82)"
+            }
+        ]
+    },
+    "legendObject_checked": [
+        {
+            "type": "line",
+            "id": "entitlement",
+            "name": "Net Actual Inventory",
+            "color": "rgb(92, 180, 222)",
+            "checkBoxObject": {
+                "id": "net_actual_inventory",
+                "checked": true
+            }
+        },
+        {
+            "type": "dash",
+            "id": "entitlement",
+            "name": "Net Planned Inventory",
+            "color": "rgb(82, 79, 140)",
+            "checkBoxObject": {
+                "id": "net_planned_inventory",
+                "checked": true
+            }
+        },
+        {
+            "type": "line",
+            "id": "entitlement",
+            "name": "Gross Actual Inventory",
+            "color": "rgb(242, 184, 217)",
+            "checkBoxObject": {
+                "id": "gross_actual_inventory",
+                "checked": false
+            }
+        },
+        {
+            "type": "dash",
+            "id": "entitlement",
+            "name": "Gross Planned Inventory",
+            "color": "rgb(173, 0, 0)",
+            "checkBoxObject": {
+                "id": "gross_planned_inventory",
+                "checked": false
+            }
+        }
+    ],
+    "forecast": 157688,
+    "categories": [
+        "padding",
+        "pet",
+        "eme",
+        "enq",
+        "SEP"
+    ],
+    "liftingP": [
+        {
+            "y": "1",
+            "x": 1556735280000,
+            "x2": 1556760720000,
+            "color": "rgb(0, 158, 142)",
+            "details": {
+                "liftID": "PT7881",
+                "lifted_volume": 85.616,
+                "vesselName": "PIPELINE TRANSFER",
+                "API": "44.8",
+                "BSW": "0.486%"
+            }
+        },
+        {
+            "y": "1",
+            "x": 1556855280000,
+            "x2": 1556900640000,
+            "color": "rgb(0, 158, 142)",
+            "details": {
+                "liftID": "PT7882",
+                "lifted_volume": 268.482,
+                "vesselName": "TORM MATHILDE",
+                "API": "45.0",
+                "BSW": "0.127%"
+            }
+        }
+    ],
+    "data": {
+        "month": "1",
+        "event": [
+            {
+                "x": 28,
+                "y": 471,
+                "summary": {
+                    "DateLiftingImpact": "28 Apr 19",
+                    "liftIDLiftingImpact": "PT7879",
+                    "volumeLiftingImpact": "-28.92 kdb"
+                }
+            }
+        ],
+        "net_actual": [
+            [
+                30,
+                699728.387
+            ],
+            [
+                30,
+                699728.387
+            ],
+            [
+                1,
+                783915.882
+            ]
+        ],
+        "net_planned": [
+            [
+                30,
+                699.728387
+            ],
+            [
+                30,
+                609.728387
+            ],
+            [
+                1,
+                733.5901356
+            ]
+        ],
+        "gross_actual": [
+            [
+                30,
+                858643.923
+            ],
+            [
+                30,
+                858643.923
+            ],
+            [
+                1,
+                932958.587
+            ]
+        ],
+        "gross_planned": [
+            [
+                30,
+                858.643923
+            ],
+            [
+                30,
+                768.643923
+            ],
+            [
+                1,
+                892.5056716
+            ]
+        ],
+        "forecast": 1559232000000,
+        "lowLevel": [
+            [
+                0,
+                300
+            ],
+            [
+                1,
+                300
+            ],
+            [
+                2,
+                300
+            ]        ],
+        "unpumpable": [
+            [
+                0,
+                150
+            ],
+            [
+                1,
+                150
+            ],
+            [
+                2,
+                150
+            ]
+        ],
+        "max": [
+            [
+                0,
+                530
+            ],
+            [
+                1,
+                530
+            ],
+            [
+                2,
+                530
+            ]
+        ],
+        "contigencyLow": [
+            [
+                0,
+                510
+            ],
+            [
+                1,
+                510
+            ],
+            [
+                2,
+                510
+            ]        ],
+        "tankTop": [
+            [
+                0,
+                1420
+            ],
+            [
+                1,
+                1420
+            ],
+            [
+                2,
+                1420
+            ]        ],
+        "id": [
+            null        ],
+        "operationData": {
+            "updated_at": "1 May 2019 @ 6:00"
+        },
+        "pet": [
+            85,
+            0,
+            268,
+            0,
+            200,
+            89,
+            0,
+            99,
+            229,
+            0,
+            0,
+            0,
+            89,
+            0,
+            0,
+            89,
+            0,
+            0,
+            169,
+            324,
+            0,
+            90,
+            0,
+            176,
+            0,
+            0,
+            89,
+            0,
+            179,
+            199
+        ]
+    }
+}
